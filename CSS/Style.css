@@ -1,0 +1,58 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    width: 1200px;
+}
+header{
+    padding: 10px;
+    height: 80px;
+}
+header nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+header nav ul li a{
+   text-decoration: none;
+   width: 80px;
+   font-size: 20px;
+   color: purple;
+   font-weight: bold;
+   margin: 0;
+   padding: 0;
+   
+}
+header nav ul li{
+    /* border-top: 2px solid purple; */
+    list-style: none;
+}
+.header-logo{
+    width: 100px;
+}
+
+.banner-image img{
+    width: 100%;
+    padding: 10px 0;
+}
+.banner-image{
+    position: relative;
+}
+.banner-text{
+    position: absolute;
+    top: 400px;
+    text-align: center;
+}
+.banner-text h1{
+    font-size: 66px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.primary-button{
+  width: 25%;
+  border: 0;
+  border-radius: 5px;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
