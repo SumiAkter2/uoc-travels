@@ -42,7 +42,7 @@ header nav ul li {
 
 }
 header nav ul li a:hover{
-    border-top: 2px solid purple;
+    border-top: 4px solid purple;
 }
 .header-logo{
     width: 100px;
