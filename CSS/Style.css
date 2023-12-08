@@ -96,8 +96,9 @@ header nav ul li{
 }
 .gallery-box{
     width: 320px;
-    margin: 0 auto;
+    margin: 20px auto;
     overflow: hidden;
+    box-sizing: content-box;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    border-radius: 10px;
    
@@ -105,7 +106,6 @@ header nav ul li{
 .gallery-info-text{
     width: 300px;
     padding:  30px 20px;
-    margin: 0 50px;
 }
 .gallery-image{
     position: relative;
@@ -117,6 +117,9 @@ header nav ul li{
     width:300px;
     margin:  0 auto;
     
+}
+.amsterdam-image img{
+width: 350px;
 }
 
 .gallery-image-text{
@@ -134,10 +137,15 @@ header nav ul li{
    
 
 }
-.gallery-info-text{
-    /* width: 250px; */
-    text-align: center;
-}
+
 .gallery-info-text h4{
     color: red;
+    padding: 10px 0;
+    width: 200px;
+    text-align: center;
+}
+.gallery-info-text h5 , .gallery-info-text a{
+    width: 200px;
+    text-align: center;
+
 }
